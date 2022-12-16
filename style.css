@@ -135,7 +135,12 @@ nav a {
   margin-bottom: 80px;
 }
 
-.grid-paysages img,
+.grid-paysages img
+
+{
+  grid-template-column: 1fr 1Fr 1fr;
+  grid-template-row: 100px 200px 250px;
+}
 .grid-portraits img {
   width: 100%;
   height: 100%;
